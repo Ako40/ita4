@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 60px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+
+}
+
+#nav-bar ul li a:hover {
+    color: rgb(157, 226, 29) !important;
+}
+
+.navbar {
+    background: rgb(231, 124, 124);
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+#slider {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+
+.carousel-caption h5 {
+    color: green;
+    font-size: 45px;
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(29, 4, 61);
+}
+
+#about .btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    padding-top: 20px;
+}
+
+.skills-bar p {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress-border {
+    border-radius: 16px;
+}
+
+.progress {
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+#pricing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/img4.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #ecf3f5;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#pricing h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+#pricing h2::after {
+    content: '';
+    background: white;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.pricing .col-md-4:hover {
+    background: rgb(68, 80, 182);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#contact {
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(0, 10, 10);
+}
+
+.contact-form {
+    padding: 15px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: none;
+}
+
+::placeholder {
+    color: turquoise;
+}
+
+.follow {
+    background: turquoise;
+    padding: 10px;
+    margin: 15px;
+}
